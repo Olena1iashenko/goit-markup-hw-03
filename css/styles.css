@@ -73,7 +73,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    margin: 24px 0;
+    padding: 24px 0;
 }
 
 .menu-nav-list:hover, .menu-nav-list:focus {
@@ -86,7 +86,6 @@ img {
 
 .contacts {
     font-style: normal;
-    padding-left: 332px;
 }
 
 .contact-linc {
