@@ -73,7 +73,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    padding: 24px 0
+    margin: 24px 0;
 }
 
 .menu-nav-list:hover, .menu-nav-list:focus {
@@ -86,6 +86,7 @@ img {
 
 .contacts {
     font-style: normal;
+    padding-left: 332px;
 }
 
 .contact-linc {
@@ -164,7 +165,7 @@ img {
 /* Main */
 
 .visually-hidden {
-    visibility: hidden;
+    display: none;
 }
 
 .ul-list-no-name {
