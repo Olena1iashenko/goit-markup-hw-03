@@ -53,16 +53,22 @@ img {
     text-transform: uppercase;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
+    
+    padding: 24px 0;
 }
 
 .studio {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
+.menu-nav-box {
+    display: flex;
+}
+
 .menu-nav {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .menu-nav-list {
@@ -73,7 +79,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    margin: 24px 0;
+    padding: 24px 0;
 }
 
 .menu-nav-list:hover, .menu-nav-list:focus {
@@ -104,6 +110,7 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
 .header-container {
@@ -165,7 +172,16 @@ img {
 /* Main */
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .ul-list-no-name {
