@@ -121,12 +121,6 @@ img {
     padding: 0 15px;
 }
 
-.header .container {
-    display: flex;
-    flex-direction: row;
-    padding: 24px 0;
-}
-
 .navigation {
     display: flex;
     align-items: center;
